@@ -1,0 +1,153 @@
+body{
+    font-family: montserrat;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container{
+    padding: 3% 15%;
+}
+h1{
+    font-family: Montserrat-bold;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+h2{
+    font-family: Montserrat-bold;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* navbar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+/* button */
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+.brand-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+      
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+.logo-features{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.features-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-style: Bold-700;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.features-para{
+    color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    background-color: #ef8172;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.dog-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px 15px 0;
+}
+/* press */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 5% 15%;
+}
+.press-image{
+    width: 20%;
+    margin: 0 15px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.prcing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1037px){
+    #title{
+        text-align: center;
+    }
+    .brand-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-heading{
+    padding: 7% 15% 0;
+    font-family: Montserrat-bold;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+#footer{
+    padding: 15% 7%;
+    text-align: center;
+}
+.social{
+    margin: 0 1.5% 2%;
+}
