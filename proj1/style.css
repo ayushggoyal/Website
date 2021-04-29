@@ -1,0 +1,53 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #e5eff5;
+    color: #98a6bd;
+    font-weight: 700;
+}
+h1{
+    color: #2ab2af;
+}
+h2{
+    color: #fff;
+}
+.main-box{
+    padding: 7% 20%;
+    position: absolute;
+    z-index: 1;
+}
+/* intro section */
+.intro{
+    padding: 7%;
+    background-color: white;
+    
+}
+.intro-part{
+    color: #c0df34;
+}
+.signbutton{
+    background-color: #c0df34;
+    width: 90%;
+}
+/* payment */
+.payment{
+    padding: 7%;
+    background-color: #2ab2af;
+
+}
+span{
+    font-size: 2.5rem;
+    color: #fff;
+}
+/* why-us */
+.why-us{
+    padding: 7%;
+    padding-left: 5%;
+    background-color: #11d4d1;
+    text-align: left;
+}
+.why-us  h2{
+    margin-left: 28px;
+}
+li{
+    list-style-type: none;
+}
